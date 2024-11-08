@@ -13,9 +13,12 @@ export class SheetsService {
     private readonly configService: ConfigService
   ) {
     this.spreadsheetId = this.configService.get<string>('GOOGLE_SHEET_ID');
+    const credentials = JSON.parse(
+      this.configService.get<string>('GOOGLE_CREDENTIALS')
+    );
 
     const auth = new google.auth.GoogleAuth({
-      keyFile: './spatial-range-439811-f6-4f755607372c.json',
+      credentials,
       scopes: ['https://www.googleapis.com/auth/spreadsheets'],
     });
 
