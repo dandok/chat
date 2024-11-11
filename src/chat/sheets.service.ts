@@ -21,7 +21,34 @@ export class SheetsService {
       project_id: 'spatial-range-439811-f6',
       private_key_id: '4f755607372cdddd9cc357c5905a359859bf3f60',
       private_key:
-        '-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnuh5JHhhD28sH\\nrS55oUX9c/3oPxBt1c1R4wSCXBBe/gT30L9JivtcyONMwrFI1TmwOnFdSeTXPvsK\\nn+LH/luVxZMAYl/q7n06yR8LzXghynN2E41w3x0yAWynuMkLLrpzJhYX4nIa7+Lf\\nu/twvkh2nhLiozYRzOaPwOVxpPQ8oyrRu29QbqjCQEAY+H2grAg7HTKB0Siy//tX\\nAwoSJb/nVkITWMFzL0WFE+77GtVGQ9gc03syibLWsButjp38HegdMOEcAC2cQl4k\\nEPM3NLyamXdoicDwQ87l89MJZgdxfkGYshO1/E6yR08WPI/bnCo/m7Pq2sKCpGRr\\nl7MX18VlAgMBAAECggEARRgNQNambVHeVfe4FP/kOrAtMR7FkFGKhsirw13UmqUu\\n+71hB5U6zjKtPCJZ8ORxotC4gZMes7LsrKhHvlZgeRbOY1KjK776FJzkbrLCYb0q\\nCkKsugoXV1Gx5nffTf1+blAKuuUcV09p2Pvx7TRd2otswTM142hStHZkroei21U6\\nosuiT2JNqE/2eGPVUVL3Pr5T8NXNZTF5O9LuZVsLYJg5WqhYirRqD2k6qa1QoNwz\\nXUUNi6CtldvwZCuyM79usHttf8SHCeqXq1PrWMBtP5XAwWAvKMVkjpwzPa/m/kna\\n8Bl11DCEpVr/hUgB3XG8G6A1VoKcSOXp8Kamx+yi8wKBgQDjuOKmtMn7a+mqpBEP\\nmIKiDapPJkkLc4eEcsJ1BERAO0qFLGik1N3cg8e0qEblEBX09qPQ5Y1U91UKJHED\\nPpNVQk6NfpepTHHV47nDLWhWInYw3p2ZxqWLnOnTQeEsqAAdcwunaDOu11im3UEZ\\ntb6r4UcmpT+7bLbX6XtlH+ICUwKBgQC8jggwjuSmQfDGFp0Ba2Cwq0Fa8pB9XuMJ\\nj9pcPiCupXbRY83zH4Zp/2TQnEAASsRexpTCKBjpS8bckOxs5zhAzhKC66bWNOqn\\nwxBEdi8XuRF4HH8iSza2XPpfpaf2G9MjkHhHIHgMtYq86RL8YXJY4tMEtuCpz/Xg\\nO2xnF2USZwKBgF5U3C7KfVEVJrp1NEwNlS+kEYSwC1ofBWgsUbk/hzZEWV5JQx/k\\nvfL28+c2PgftXesXsEx8istDmYqWBeqeJVIQIZIjepe6/vznVLAxQyNLK0KbNRXa\\nYAExgvrsM2bYQRPx8EXsuFwZALQ+uxT3YIC61UqA8aGmKyfNpDwDtQ/ZAoGBALKs\\nDEqnPTfmiFfNGd48eBUxUu7xp8WFYrKu5AZAwQt9s8fbQU8+8koDPu8HAQbF0qrU\\nliYdhO2dZsWfdsoDmKSgIZ5521BkOG/cQc/+BcX/EvS0XCyNBT1tgbuc6DooR70N\\nq0wLEndImD1GxzzswkREPB3dhaqka6Od660M2DPFAoGAdRDJWqD5gstDIsoKPcjq\\nbulGZH8xsbtwLhzMDZlfuMoLREno+xUsSfNEu2GUcNA+KW9kUhasahGy9Bgs1pqP\\ni6IiTajFqw8J1ubPco29vLpLncYH1iUR3X2J8k/dL+IPTQutYujXSCiYwNHLNi6O\\n09itS6DWAAavU8hh5D1Y7X0=\\n-----END PRIVATE KEY-----\\n',
+        `-----BEGIN PRIVATE KEY-----
+        MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnuh5JHhhD28sH
+        rS55oUX9c/3oPxBt1c1R4wSCXBBe/gT30L9JivtcyONMwrFI1TmwOnFdSeTXPvsK
+        +LH/luVxZMAYl/q7n06yR8LzXghynN2E41w3x0yAWynuMkLLrpzJhYX4nIa7+Lf
+        u/twvkh2nhLiozYRzOaPwOVxpPQ8oyrRu29QbqjCQEAY+H2grAg7HTKB0Siy//tX
+        AwoSJb/nVkITWMFzL0WFE+77GtVGQ9gc03syibLWsButjp38HegdMOEcAC2cQl4k
+        EPM3NLyamXdoicDwQ87l89MJZgdxfkGYshO1/E6yR08WPI/bnCo/m7Pq2sKCpGRr
+        l7MX18VlAgMBAAECggEARRgNQNambVHeVfe4FP/kOrAtMR7FkFGKhsirw13UmqUu
+        +71hB5U6zjKtPCJZ8ORxotC4gZMes7LsrKhHvlZgeRbOY1KjK776FJzkbrLCYb0q
+        CkKsugoXV1Gx5nffTf1+blAKuuUcV09p2Pvx7TRd2otswTM142hStHZkroei21U6
+        osuiT2JNqE/2eGPVUVL3Pr5T8NXNZTF5O9LuZVsLYJg5WqhYirRqD2k6qa1QoNwz
+        XUUNi6CtldvwZCuyM79usHttf8SHCeqXq1PrWMBtP5XAwWAvKMVkjpwzPa/m/kna
+        8Bl11DCEpVr/hUgB3XG8G6A1VoKcSOXp8Kamx+yi8wKBgQDjuOKmtMn7a+mqpBEP
+        mIKiDapPJkkLc4eEcsJ1BERAO0qFLGik1N3cg8e0qEblEBX09qPQ5Y1U91UKJHED
+        PpNVQk6NfpepTHHV47nDLWhWInYw3p2ZxqWLnOnTQeEsqAAdcwunaDOu11im3UEZ
+        tb6r4UcmpT+7bLbX6XtlH+ICUwKBgQC8jggwjuSmQfDGFp0Ba2Cwq0Fa8pB9XuMJ
+        j9pcPiCupXbRY83zH4Zp/2TQnEAASsRexpTCKBjpS8bckOxs5zhAzhKC66bWNOqn
+        wxBEdi8XuRF4HH8iSza2XPpfpaf2G9MjkHhHIHgMtYq86RL8YXJY4tMEtuCpz/Xg
+        O2xnF2USZwKBgF5U3C7KfVEVJrp1NEwNlS+kEYSwC1ofBWgsUbk/hzZEWV5JQx/k
+        vfL28+c2PgftXesXsEx8istDmYqWBeqeJVIQIZIjepe6/vznVLAxQyNLK0KbNRXa
+        YAExgvrsM2bYQRPx8EXsuFwZALQ+uxT3YIC61UqA8aGmKyfNpDwDtQ/ZAoGBALKs
+        DEqnPTfmiFfNGd48eBUxUu7xp8WFYrKu5AZAwQt9s8fbQU8+8koDPu8HAQbF0qrU
+        liYdhO2dZsWfdsoDmKSgIZ5521BkOG/cQc/+BcX/EvS0XCyNBT1tgbuc6DooR70N
+        q0wLEndImD1GxzzswkREPB3dhaqka6Od660M2DPFAoGAdRDJWqD5gstDIsoKPcjq
+        bulGZH8xsbtwLhzMDZlfuMoLREno+xUsSfNEu2GUcNA+KW9kUhasahGy9Bgs1pqP
+        i6IiTajFqw8J1ubPco29vLpLncYH1iUR3X2J8k/dL+IPTQutYujXSCiYwNHLNi6O
+        09itS6DWAAavU8hh5D1Y7X0=
+        -----END PRIVATE KEY-----`,
       client_email:
         'googlesheetserviceaccount@spatial-range-439811-f6.iam.gserviceaccount.com',
       client_id: '101467606236589351881',
@@ -32,8 +59,6 @@ export class SheetsService {
         'https://www.googleapis.com/robot/v1/metadata/x509/googlesheetserviceaccount%40spatial-range-439811-f6.iam.gserviceaccount.com',
       universe_domain: 'googleapis.com',
     };
-
-    console.log(credentials);
 
     const auth = new google.auth.GoogleAuth({
       credentials,
